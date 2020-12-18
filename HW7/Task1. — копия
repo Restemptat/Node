@@ -1,0 +1,3 @@
+Task1.
+Regex: (?P<name>^[а-яА-ЯёЁ.]+) (?P<surname>[а-яА-ЯёЁ-]+$)
+Substitution: \g<surname>, \g<name>
